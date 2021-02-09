@@ -1,0 +1,10 @@
+i{
+    cursor: pointer;
+}
+img{
+    clip-path: inset(0);
+    transition: clip-path .6s ease;
+}
+img:hover{
+    clip-path: inset(40px);
+}
